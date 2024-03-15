@@ -1,0 +1,77 @@
+.heading {
+    position: fixed;
+    top: 20px;
+    left: 50%; /* Place the heading at the center horizontally */
+    transform: translateX(-50%); /* Adjust to center the heading */
+    font-size: 32px
+  }
+  .paragraph {
+    margin-top: 10px; /* Move the paragraph up */
+    font-size: 32px; /* Set the font size to 32 */
+    margin-left: 30px;
+  }
+  .points {
+    font-family: "Times New Roman", Times, serif; /* Set font to Times New Roman */
+    margin-left: 100px;
+  }
+  
+  .points ul {
+    font-size: 32px; /* Increase the font size of the list items to 32 */
+  }
+  
+  .points ul li {
+    margin-bottom: 8px; /* Add some spacing between list items */
+    text-align: left; /* Align list items to the left */
+  }
+  
+  
+  .text-content {
+    margin-top: 60px; /* Adjust margin-top to create space for the heading */
+  }
+  
+  .text-content .paragraph {
+    margin-top: 20px; /* Add space between heading and paragraph */
+  }
+  
+  .text-content ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove default left padding */
+  }
+  
+  .text-content ul {
+    list-style-type: disc; /* Use default disc bullet points */
+    padding-left: 20px; /* Add some left padding for indentation */
+  }
+  
+  .text-content ul li {
+    margin-bottom: 8px; /* Add some spacing between list items */
+    text-align: left; /* Align list items to the left */
+  }
+  
+  .image-container {
+    margin-left: 10px;
+    margin-top: 20px; /* Add margin to the top to move the image down */
+    margin-right: auto;
+  }
+  
+  .image-container img {
+    width: 25vw; /* Set the width of the image to 40% of the viewport width */
+    max-height: 100vh; /* Set a maximum height for the image */
+  }
+  
+  
+  
+  .symptoms-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items to the top */
+    background-color: #c8e3f2;
+    padding: 20px;
+  }
+  
+  .main-symptoms {
+    background-color: #c8e3f2;
+    font-family: "Times New Roman", Times, serif;
+    height: 100vh;
+  }
+  
