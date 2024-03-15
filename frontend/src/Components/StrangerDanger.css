@@ -1,0 +1,62 @@
+*{
+  font-family: "Adamina", serif; 
+  font-size: 20px;
+  overflow: hidden;
+}
+
+body{
+  background-color: rgb(251, 221, 221);
+  /* background-image: linear-gradient(to right,rgb(165, 105, 93),rgb(231, 164, 233)); */
+}
+h1{
+  font-size: 35px;
+  margin-top: 8px;
+}
+h2{
+  font-size: 30px;
+}
+.bubble{
+  border: 2px solid black;
+  float: left;
+  width: 30%;
+  border-radius: 10%;
+  background-color: rgb(249, 253, 231);
+  font-family: 'comic-sans';
+}
+img{
+  padding-right: 0;
+}
+.dialog{
+  margin-left: 28%;
+  margin-right: 28%;
+}
+
+/* button{
+  width: 140px;
+} */
+.Btn{
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 7px;
+  margin: 25px;
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+.Btn:hover{
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  transform: scale(1.1);
+  transition:ease-in-out;
+}
+.correct{
+  background-color: rgb(181, 248, 180);
+  transition: transform 80ms ease-in;
+  transform: scale(1.07);
+  
+}
+
+.wrong{
+  background-color: rgb(252, 128, 128);
+}
