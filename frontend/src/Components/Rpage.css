@@ -1,0 +1,52 @@
+body {
+  background-color: #faf1c2;
+}
+
+.App {
+  text-align: center;
+}
+
+.Buttons {
+  border-style: none;
+  margin: 50px;
+}
+
+.Recognize {
+  border-style: none;
+  margin: 10px;
+  padding: 20px;
+}
+
+.Twobuttons {
+  border-style: none;
+  margin: 10px;
+}
+
+.recog {
+  height: 50px;
+  width: 150px;
+  border-style: solid;
+  background-color: aquamarine;
+}
+
+.report {
+  border-style: solid;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 50px;
+  width: 150px;
+  background-color: aquamarine;
+}
+
+.refuse {
+  border-style: solid;
+  margin-right: 20px;
+  height: 50px;
+  width: 150px;
+  background-color: aquamarine;
+}
+
+.Title {
+  font-size: xx-large;
+  font-weight: 800;
+}
