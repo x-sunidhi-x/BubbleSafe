@@ -52,4 +52,6 @@ function Rpage() {
   );
 }
 
+
 export default Rpage;
+

@@ -2,8 +2,9 @@
   font-family: "Adamina", serif; 
 }
 
-body{
+.main-game1{
     background-color: rgb(248, 211, 248);
+    height: 100vh;
     overflow:hidden;     
 }
 

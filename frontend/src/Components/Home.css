@@ -1,0 +1,17 @@
+.main-home{
+    height: 100vh;
+    background-color: rgb(190, 225, 251);
+}
+
+.main-button{
+    padding: 10px;
+    background-color: rgb(170, 196, 220);
+    border-radius: 15px;
+    width: 15%;
+    margin: 10px;
+    border: none;
+}
+.main-button:hover{
+    background-color: rgb(152, 200, 241);
+    transform: scaleX(1.05);
+}

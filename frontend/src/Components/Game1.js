@@ -2,18 +2,22 @@
 import React, { useState, useEffect, useRef, Component } from 'react';
 
 import './styles1.css'
-
+import { useParams } from "react-router-dom";
 import Confetti from './Confetti'
-import buzzer from './buzzerwav-14908.mp3'
-import correctsound from './mixkit-correct-answer-tone-2870.wav'
-
+import buzzer from './images/buzzerwav-14908.mp3'
+import correctsound from './images/mixkit-correct-answer-tone-2870.wav'
+import Axios from 'axios';
 function Game1() {
   const [isCorrect, setIsCorrect] = useState(false);
   const [isWrong, setIsWrong] = useState(false);
   let wonAudio = new Audio(correctsound);
   let lostAudio = new Audio(buzzer);
+
+
+
   return (
-    <center>
+    <center className='main-game1'>
+      
       <h1 style={{ padding: "20px" }}>Watch the video and answer the question</h1>
       <div >
         <iframe className='video' src="https://www.youtube.com/embed/uAD17zMgjHc" title="video" allowFullScreen></iframe>
