@@ -20,7 +20,7 @@ function Rpage() {
   };
 
   return (
-    <div className="App">
+    <div className="main-rpage">
       <div className="Title">
         <p>The 3 R's of SAFETY</p>
       </div>
